@@ -1,11 +1,13 @@
 {
   "name": "react-screenflow",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "./dist/react-screenflow.umd.js",
   "module": "./dist/react-screenflow.es.js",
   "types": "./dist/types/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -25,7 +27,12 @@
     "vite": "^5.0.8"
   },
   "description": "A smooth and elegant animation component for React.",
-  "keywords": ["react", "animation", "framer-motion", "transitions"],
+  "keywords": [
+    "react",
+    "animation",
+    "framer-motion",
+    "transitions"
+  ],
   "author": "Milan Patel",
   "license": "MIT",
   "peerDependencies": {
@@ -34,4 +41,3 @@
     "framer-motion": "^10.0.0"
   }
 }
-
