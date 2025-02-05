@@ -1,48 +1,54 @@
-```markdown
 # React ScreenFlow 🚀
 
 A smooth and elegant animation component for React, powered by **framer-motion**. Perfect for page transitions, modals, and more!
 
-## Features
+---
+
+## ✨ Features
+
 - 🎨 **Multiple Animation Types**: Choose from `elegantSlide`, `smoothFade`, `materialScale`, `cardFlip`, `elastic`, and `swoosh`.
 - ⚡️ **Optimized Performance**: Uses `framer-motion` for buttery-smooth animations.
 - 🌟 **Highly Customizable**: Add your own styles and animations with ease.
 - 🛠️ **TypeScript Support**: Fully typed for a better developer experience.
 - 📦 **Lightweight**: Minimal dependencies, optimized for production.
 
-## Installation
+---
 
-To install the package, use either npm or yarn:
+## 📥 Installation
 
-```
+Install the package using npm or yarn:
+
+```sh
 npm install react-screenflow
 ```
 
 or
 
-```
+```sh
 yarn add react-screenflow
 ```
 
 ### Required Dependency
 
-Make sure to install `framer-motion` as it is required for the animations to work:
+Ensure `framer-motion` is installed for animations to work:
 
-```
+```sh
 npm install framer-motion
 ```
 
 or
 
-```
+```sh
 yarn add framer-motion
 ```
 
-## Usage
+---
+
+## 🚀 Usage
 
 Here’s a simple example of how to use the `ScreenFlow` component in your React application:
 
-```javascript
+```tsx
 import React from 'react';
 import { ScreenFlow } from 'react-screenflow';
 
@@ -60,17 +66,34 @@ function App() {
 export default App;
 ```
 
-## Props
+---
 
-| Prop        | Type                     | Default          | Description                          |
-|-------------|--------------------------|------------------|--------------------------------------|
-| `animation` | `keyof typeof animations`| `elegantSlide`   | Animation type                       |
-| `mode`      | `"wait" | "sync" | "popLayout"` | `"wait"`           | How multiple animations are handled  |
-| `className` | `string`                 | `""`             | Custom class for the wrapper         |
+## 🔗 Demo
 
-## Animation Types
+Check out a live demo on CodeSandbox:
 
-Your package supports the following animations (defined in `ScreenFlow.tsx`):
+[**View Demo on CodeSandbox**](https://codesandbox.io/p/sandbox/react-screenflow-6mjdkh)
+
+🔍 **Preview**: [Live Preview](https://6mjdkh.csb.app/)
+
+🌐 **Official Website**: [React ScreenFlow](https://react-screenflow.vercel.app/)
+
+---
+
+## ⚙️ Props
+
+| Prop        | Type                                    | Default        | Description                            |
+|------------|----------------------------------------|----------------|----------------------------------------|
+| `animation` | `keyof typeof animations`              | `elegantSlide` | Animation type                        |
+| `mode`      | `"wait" \| "sync" \| "popLayout"`      | `"wait"`       | Defines how multiple animations work  |
+| `className` | `string`                               | `""`           | Custom class for the wrapper          |
+
+---
+
+## 🎞️ Animation Types
+
+Your package supports the following animations:
+
 - **elegantSlide**: Smooth slide with blur effect.
 - **smoothFade**: Fade with subtle scale and vertical movement.
 - **materialScale**: Material Design-inspired scale and slide.
@@ -78,70 +101,80 @@ Your package supports the following animations (defined in `ScreenFlow.tsx`):
 - **elastic**: Bouncy, elastic animations.
 - **swoosh**: Fast, swooshing motion.
 
-## Dependencies
+---
 
-Your package requires the following dependencies:
+## 📦 Dependencies
+
+This package requires the following dependencies:
 
 - **framer-motion**: ^10.16.4
 - **react**: ^18.2.0
 - **react-dom**: ^18.2.0
 - **react-router-dom**: ^6.18.0
 
-## Development
+---
+
+## 🛠️ Development
 
 ### Build the Package
 
-To build the package, run:
-
-```
+```sh
 npm run build
 ```
 
 ### Run in Development Mode
 
-To start the development server with hot module replacement (HMR):
-
-```
+```sh
 npm run dev
 ```
 
 ### Preview the Build
 
-To preview the production build:
-
-```
+```sh
 npm run preview
 ```
 
-## Tech Stack
+---
+
+## 🏗️ Tech Stack
+
 - **React**: Core UI library.
 - **framer-motion**: Animation engine.
 - **Vite**: Build tool for fast development and production builds.
 - **TypeScript**: Type-safe development.
 
-## License
+---
+
+## 📜 License
 
 MIT © [Milan Patel](https://github.com/MilanPatel2003)
 
-## GitHub Repository
+---
 
-You can find the source code and contribute to the project at [MilanPatel2003/react-screenflow](https://github.com/MilanPatel2003/react-screenflow).
+## 🔗 GitHub Repository
 
-## Contributing
+Find the source code and contribute at:  
+[**MilanPatel2003/react-screenflow**](https://github.com/MilanPatel2003/react-screenflow)
 
-Contributions are welcome! Please open an issue or submit a pull request.
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
+2. Create a new branch: `git checkout -b feature/YourFeature`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/YourFeature`.
 5. Open a pull request.
 
-## Support
+---
+
+## 💡 Support
 
 If you find this package useful, consider giving it a ⭐️ on [GitHub](https://github.com/MilanPatel2003/react-screenflow)!
 
 ---
 
 Made with ❤️ by [Milan Patel](https://github.com/MilanPatel2003)
-```
+

@@ -1,6 +1,6 @@
 {
   "name": "react-screenflow",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "main": "./dist/react-screenflow.umd.js",
   "module": "./dist/react-screenflow.es.js",
