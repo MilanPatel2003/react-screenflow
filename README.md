@@ -14,13 +14,13 @@ A smooth and elegant animation component for React, powered by **framer-motion**
 
 To install the package, use either npm or yarn:
 
-```bash
+```
 npm install react-screenflow
 ```
 
 or
 
-```bash
+```
 yarn add react-screenflow
 ```
 
@@ -64,13 +64,22 @@ Your package supports the following animations (defined in `ScreenFlow.tsx`):
 - **elastic**: Bouncy, elastic animations.
 - **swoosh**: Fast, swooshing motion.
 
+## Dependencies
+
+Your package requires the following dependencies:
+
+- **framer-motion**: ^10.16.4
+- **react**: ^18.2.0
+- **react-dom**: ^18.2.0
+- **react-router-dom**: ^6.18.0
+
 ## Development
 
 ### Build the Package
 
 To build the package, run:
 
-```bash
+```
 npm run build
 ```
 
@@ -78,7 +87,7 @@ npm run build
 
 To start the development server with hot module replacement (HMR):
 
-```bash
+```
 npm run dev
 ```
 
@@ -86,9 +95,35 @@ npm run dev
 
 To preview the production build:
 
-```bash
+```
 npm run preview
 ```
 
 ## Tech Stack
-- **React
+- **React**: Core UI library.
+- **framer-motion**: Animation engine.
+- **Vite**: Build tool for fast development and production builds.
+- **TypeScript**: Type-safe development.
+
+## License
+
+MIT © [Milan Patel](https://github.com/MilanPatel2003)
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+## Support
+
+If you find this package useful, consider giving it a ⭐️ on [GitHub](https://github.com/MilanPatel2003/react-screenflow)!
+
+---
+
+Created by [Milan Patel](https://github.com/MilanPatel2003)
+```
