@@ -1,6 +1,5 @@
 {
   "name": "react-screenflow",
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "main": "./dist/react-screenflow.umd.js",
@@ -27,7 +26,7 @@
   },
   "description": "A smooth and elegant animation component for React.",
   "keywords": ["react", "animation", "framer-motion", "transitions"],
-  "author": "Your Name",
+  "author": "Milan Patel",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.8.0",
