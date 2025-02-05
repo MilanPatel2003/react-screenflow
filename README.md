@@ -24,6 +24,20 @@ or
 yarn add react-screenflow
 ```
 
+### Required Dependency
+
+Make sure to install `framer-motion` as it is required for the animations to work:
+
+```
+npm install framer-motion
+```
+
+or
+
+```
+yarn add framer-motion
+```
+
 ## Usage
 
 Here’s a simple example of how to use the `ScreenFlow` component in your React application:
@@ -109,6 +123,10 @@ npm run preview
 
 MIT © [Milan Patel](https://github.com/MilanPatel2003)
 
+## GitHub Repository
+
+You can find the source code and contribute to the project at [MilanPatel2003/react-screenflow](https://github.com/MilanPatel2003/react-screenflow).
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
@@ -125,5 +143,5 @@ If you find this package useful, consider giving it a ⭐️ on [GitHub](https:/
 
 ---
 
-Created by [Milan Patel](https://github.com/MilanPatel2003)
+Made with ❤️ by [Milan Patel](https://github.com/MilanPatel2003)
 ```
